@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Onewaymanconnections (OWMC)</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&display=swap');
+    body {
+      margin: 0;
+      background: radial-gradient(circle, #0f0f0f 0%, #1a1a1a 100%);
+      color: white;
+      font-family: 'Orbitron', sans-serif;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 40px;
+      background: #000000aa;
+      box-shadow: 0 0 20px #00ffe7;
+    }
+    .logo {
+      font-size: 1.8rem;
+      color: #00ffe7;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { text-shadow: 0 0 10px #00ffe7; }
+      50% { text-shadow: 0 0 20px #00ffff, 0 0 30px #00ffee; }
+      100% { text-shadow: 0 0 10px #00ffe7; }
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 30px;
+      padding: 40px;
+    }
+    .product {
+      background: #101820;
+      padding: 20px;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0,255,255,0.1);
+      transition: transform 0.3s ease;
+    }
+    .product:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 0 25px rgba(0,255,255,0.3);
+    }
+    .product img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .product h2 {
+      color: #00ffe7;
+      margin: 15px 0 10px;
+    }
+    .product a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 16px;
+      background: #00ffe7;
+      color: #000;
+      border-radius: 25px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .video-block {
+      text-align: center;
+      margin: 60px 0;
+    }
+    .video-block video {
+      width: 90%;
+      max-width: 800px;
+      border: 4px solid #00ffe7;
+      border-radius: 20px;
+      box-shadow: 0 0 20px #00ffe7;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">OWMC</div>
+    <div class="tagline">Onewaymanconnections</div>
+  </header>
+  <div class="grid">
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.24fMgAEc-sVlVfGyH6vXsQHaF4&pid=Api" alt="Clé USB 1">
+      <h2>Clé USB 1</h2>
+      <p>17 $</p>
+      <a href="payment_page1.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.CLIS3OQtWGQTLUYILgKVuQHaE6&pid=Api" alt="Clé USB 2">
+      <h2>Clé USB 2</h2>
+      <p>19 $</p>
+      <a href="payment_page2.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.4HQnnr9Xt_d5U2r9EfwJIAHaE7&pid=Api" alt="Clé USB 3">
+      <h2>Clé USB 3</h2>
+      <p>21 $</p>
+      <a href="payment_page3.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.4PKMt-dCYpHmco6nhsJOJwHaHL&pid=Api" alt="Clé USB 4">
+      <h2>Clé USB 4</h2>
+      <p>23 $</p>
+      <a href="payment_page4.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.24fMgAEc-sVlVfGyH6vXsQHaF4&pid=Api" alt="Clé USB 5">
+      <h2>Clé USB 5</h2>
+      <p>25 $</p>
+      <a href="payment_page5.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.CLIS3OQtWGQTLUYILgKVuQHaE6&pid=Api" alt="Clé USB 6">
+      <h2>Clé USB 6</h2>
+      <p>27 $</p>
+      <a href="payment_page6.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.4HQnnr9Xt_d5U2r9EfwJIAHaE7&pid=Api" alt="Clé USB 7">
+      <h2>Clé USB 7</h2>
+      <p>29 $</p>
+      <a href="payment_page7.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.4PKMt-dCYpHmco6nhsJOJwHaHL&pid=Api" alt="Clé USB 8">
+      <h2>Clé USB 8</h2>
+      <p>31 $</p>
+      <a href="payment_page8.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.24fMgAEc-sVlVfGyH6vXsQHaF4&pid=Api" alt="Clé USB 9">
+      <h2>Clé USB 9</h2>
+      <p>33 $</p>
+      <a href="payment_page9.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.CLIS3OQtWGQTLUYILgKVuQHaE6&pid=Api" alt="Clé USB 10">
+      <h2>Clé USB 10</h2>
+      <p>35 $</p>
+      <a href="payment_page10.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.4HQnnr9Xt_d5U2r9EfwJIAHaE7&pid=Api" alt="Clé USB 11">
+      <h2>Clé USB 11</h2>
+      <p>37 $</p>
+      <a href="payment_page11.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.4PKMt-dCYpHmco6nhsJOJwHaHL&pid=Api" alt="Clé USB 12">
+      <h2>Clé USB 12</h2>
+      <p>39 $</p>
+      <a href="payment_page12.html">Acheter</a>
+    </div>
+
+  </div>
+  <div class="video-block">
+    <video controls autoplay muted loop>
+      <source src="owmc_intro.mp4" type="video/mp4">
+      Votre navigateur ne supporte pas la lecture vidéo.
+    </video>
+  </div>
+  <div class="grid">
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.24fMgAEc-sVlVfGyH6vXsQHaF4&pid=Api" alt="Clé USB 13">
+      <h2>Clé USB 13</h2>
+      <p>41 $</p>
+      <a href="payment_page13.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.CLIS3OQtWGQTLUYILgKVuQHaE6&pid=Api" alt="Clé USB 14">
+      <h2>Clé USB 14</h2>
+      <p>43 $</p>
+      <a href="payment_page14.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.4HQnnr9Xt_d5U2r9EfwJIAHaE7&pid=Api" alt="Clé USB 15">
+      <h2>Clé USB 15</h2>
+      <p>45 $</p>
+      <a href="payment_page15.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.4PKMt-dCYpHmco6nhsJOJwHaHL&pid=Api" alt="Clé USB 16">
+      <h2>Clé USB 16</h2>
+      <p>47 $</p>
+      <a href="payment_page16.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.24fMgAEc-sVlVfGyH6vXsQHaF4&pid=Api" alt="Clé USB 17">
+      <h2>Clé USB 17</h2>
+      <p>49 $</p>
+      <a href="payment_page17.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.CLIS3OQtWGQTLUYILgKVuQHaE6&pid=Api" alt="Clé USB 18">
+      <h2>Clé USB 18</h2>
+      <p>51 $</p>
+      <a href="payment_page18.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.4HQnnr9Xt_d5U2r9EfwJIAHaE7&pid=Api" alt="Clé USB 19">
+      <h2>Clé USB 19</h2>
+      <p>53 $</p>
+      <a href="payment_page19.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.4PKMt-dCYpHmco6nhsJOJwHaHL&pid=Api" alt="Clé USB 20">
+      <h2>Clé USB 20</h2>
+      <p>55 $</p>
+      <a href="payment_page20.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.24fMgAEc-sVlVfGyH6vXsQHaF4&pid=Api" alt="Clé USB 21">
+      <h2>Clé USB 21</h2>
+      <p>57 $</p>
+      <a href="payment_page21.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.CLIS3OQtWGQTLUYILgKVuQHaE6&pid=Api" alt="Clé USB 22">
+      <h2>Clé USB 22</h2>
+      <p>59 $</p>
+      <a href="payment_page22.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.4HQnnr9Xt_d5U2r9EfwJIAHaE7&pid=Api" alt="Clé USB 23">
+      <h2>Clé USB 23</h2>
+      <p>61 $</p>
+      <a href="payment_page23.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.4PKMt-dCYpHmco6nhsJOJwHaHL&pid=Api" alt="Clé USB 24">
+      <h2>Clé USB 24</h2>
+      <p>63 $</p>
+      <a href="payment_page24.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.24fMgAEc-sVlVfGyH6vXsQHaF4&pid=Api" alt="Clé USB 25">
+      <h2>Clé USB 25</h2>
+      <p>65 $</p>
+      <a href="payment_page25.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.CLIS3OQtWGQTLUYILgKVuQHaE6&pid=Api" alt="Clé USB 26">
+      <h2>Clé USB 26</h2>
+      <p>67 $</p>
+      <a href="payment_page26.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse2.mm.bing.net/th?id=OIP.4HQnnr9Xt_d5U2r9EfwJIAHaE7&pid=Api" alt="Clé USB 27">
+      <h2>Clé USB 27</h2>
+      <p>69 $</p>
+      <a href="payment_page27.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.4PKMt-dCYpHmco6nhsJOJwHaHL&pid=Api" alt="Clé USB 28">
+      <h2>Clé USB 28</h2>
+      <p>71 $</p>
+      <a href="payment_page28.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.24fMgAEc-sVlVfGyH6vXsQHaF4&pid=Api" alt="Clé USB 29">
+      <h2>Clé USB 29</h2>
+      <p>73 $</p>
+      <a href="payment_page29.html">Acheter</a>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIP.CLIS3OQtWGQTLUYILgKVuQHaE6&pid=Api" alt="Clé USB 30">
+      <h2>Clé USB 30</h2>
+      <p>75 $</p>
+      <a href="payment_page30.html">Acheter</a>
+    </div>
+
+  </div>
+</body>
+</html>
